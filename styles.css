@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#000, #837443);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite-box {
+  background: rgba(255,255,255,0.1);
+  padding: 40px;
+  border: 1px solid #837443;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+button {
+  background: #837443;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.hero {
+  height: 100vh;
+  background: radial-gradient(circle, #837443, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
